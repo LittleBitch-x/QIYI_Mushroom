@@ -11,6 +11,12 @@
 		8C051D9F1BDB94F400EC31F9 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051D9E1BDB94F400EC31F9 /* ShopViewController.m */; };
 		8C051DA21BDB951300EC31F9 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051DA11BDB951300EC31F9 /* CommunityViewController.m */; };
 		8C051DA51BDB95AE00EC31F9 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051DA41BDB95AE00EC31F9 /* UserViewController.m */; };
+		8C051DA91BDB9EAE00EC31F9 /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051DA81BDB9EAE00EC31F9 /* CustomTabBarItem.m */; };
+		8C051DAD1BDB9F3900EC31F9 /* CustomTabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C051DAC1BDB9F3900EC31F9 /* CustomTabBarItem.xib */; };
+		8C051DB31BDBA17900EC31F9 /* iconfont-bottomcheckcomment01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C051DAF1BDBA17900EC31F9 /* iconfont-bottomcheckcomment01.png */; };
+		8C051DB41BDBA17900EC31F9 /* iconfont-bottompreview01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C051DB01BDBA17900EC31F9 /* iconfont-bottompreview01.png */; };
+		8C051DB51BDBA17900EC31F9 /* iconfont-iconaccount01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C051DB11BDBA17900EC31F9 /* iconfont-iconaccount01.png */; };
+		8C051DB61BDBA17900EC31F9 /* iconfont-icongoods01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C051DB21BDBA17900EC31F9 /* iconfont-icongoods01.png */; };
 		8CB941641BDA23F000573944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941631BDA23F000573944 /* main.m */; };
 		8CB941671BDA23F000573944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941661BDA23F000573944 /* AppDelegate.m */; };
 		8CB9416D1BDA23F000573944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9416B1BDA23F000573944 /* Main.storyboard */; };
@@ -49,6 +55,13 @@
 		8C051DA11BDB951300EC31F9 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
 		8C051DA31BDB95AE00EC31F9 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		8C051DA41BDB95AE00EC31F9 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		8C051DA71BDB9EAE00EC31F9 /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarItem.h; sourceTree = "<group>"; };
+		8C051DA81BDB9EAE00EC31F9 /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarItem.m; sourceTree = "<group>"; };
+		8C051DAC1BDB9F3900EC31F9 /* CustomTabBarItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTabBarItem.xib; sourceTree = "<group>"; };
+		8C051DAF1BDBA17900EC31F9 /* iconfont-bottomcheckcomment01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bottomcheckcomment01.png"; sourceTree = "<group>"; };
+		8C051DB01BDBA17900EC31F9 /* iconfont-bottompreview01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bottompreview01.png"; sourceTree = "<group>"; };
+		8C051DB11BDBA17900EC31F9 /* iconfont-iconaccount01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-iconaccount01.png"; sourceTree = "<group>"; };
+		8C051DB21BDBA17900EC31F9 /* iconfont-icongoods01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-icongoods01.png"; sourceTree = "<group>"; };
 		8CB9415F1BDA23F000573944 /* QYMushroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYMushroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB941631BDA23F000573944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB941651BDA23F000573944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +146,27 @@
 			path = "我我我";
 			sourceTree = "<group>";
 		};
+		8C051DA61BDB993000EC31F9 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				8C051DA71BDB9EAE00EC31F9 /* CustomTabBarItem.h */,
+				8C051DA81BDB9EAE00EC31F9 /* CustomTabBarItem.m */,
+				8C051DAC1BDB9F3900EC31F9 /* CustomTabBarItem.xib */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		8C051DAE1BDBA14C00EC31F9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8C051DAF1BDBA17900EC31F9 /* iconfont-bottomcheckcomment01.png */,
+				8C051DB01BDBA17900EC31F9 /* iconfont-bottompreview01.png */,
+				8C051DB11BDBA17900EC31F9 /* iconfont-iconaccount01.png */,
+				8C051DB21BDBA17900EC31F9 /* iconfont-icongoods01.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		8CB941561BDA23F000573944 = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +192,9 @@
 			children = (
 				8CB941651BDA23F000573944 /* AppDelegate.h */,
 				8CB941661BDA23F000573944 /* AppDelegate.m */,
+				8C051DAE1BDBA14C00EC31F9 /* Images */,
 				8CB941B01BDA33C700573944 /* FlexibleFrame */,
+				8C051DA61BDB993000EC31F9 /* CustomUI */,
 				8CB941951BDA29AF00573944 /* BaseClass */,
 				8C051D961BDB93F600EC31F9 /* 逛逛逛 */,
 				8C051D981BDB93F600EC31F9 /* 买买买 */,
@@ -329,6 +365,11 @@
 				8CB941AF1BDA321E00573944 /* CustomTabBar.xib in Resources */,
 				8CB9416F1BDA23F000573944 /* Assets.xcassets in Resources */,
 				8CB9416D1BDA23F000573944 /* Main.storyboard in Resources */,
+				8C051DAD1BDB9F3900EC31F9 /* CustomTabBarItem.xib in Resources */,
+				8C051DB41BDBA17900EC31F9 /* iconfont-bottompreview01.png in Resources */,
+				8C051DB51BDBA17900EC31F9 /* iconfont-iconaccount01.png in Resources */,
+				8C051DB61BDBA17900EC31F9 /* iconfont-icongoods01.png in Resources */,
+				8C051DB31BDBA17900EC31F9 /* iconfont-bottomcheckcomment01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C051DA51BDB95AE00EC31F9 /* UserViewController.m in Sources */,
+				8C051DA91BDB9EAE00EC31F9 /* CustomTabBarItem.m in Sources */,
 				8C051DA21BDB951300EC31F9 /* CommunityViewController.m in Sources */,
 				8CB941AD1BDA320D00573944 /* CustomTabBar.m in Sources */,
 				8CB941B31BDA33C700573944 /* FlexibleFrame.m in Sources */,
