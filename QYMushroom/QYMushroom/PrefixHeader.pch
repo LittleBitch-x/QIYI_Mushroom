@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  QYMushroom
+//
+//  Created by 李祖建 on 15/10/23.
+//  Copyright © 2015年 RecordTeam. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "FlexibleFrame.h"
+
+//屏幕适配
+
+#define MAINSCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define MAINSCREEN_W [UIScreen mainScreen].bounds.size.width
+#define MAINSCREEN_H [UIScreen mainScreen].bounds.size.height
+
+
+#define FLEXIBLE_FRAME(x,y,w,h) [FlexibleFrame frameFromIphone5Frame:CGRectMake(x, y, w, h)]
+#define FLEFRAME(frame) [FlexibleFrame frameFromIphone5Frame:frame]
+
+#define FLEXIBLE_NUM(num) [FlexibleFrame flexibleFloat:num]
+#define FLEXIBLE_SIZE(w,h) CGSizeMake(FLEXIBLE_NUM(w),FLEXIBLE_NUM(h))
+#define FLEXIBLE_CENTER(w,h) CGPointMake(FLEXIBLE_NUM(w),FLEXIBLE_NUM(h))
+#define FLE_SCREEN_SIZE FLEXIBLE_FRAME(0,0,320,568)
+#define FLEXIBLE_FONT(superView) [FlexibleFrame flexibleFontSizeWithSuperView:(superView)]
+
+
+
+#endif /* PrefixHeader_pch */
