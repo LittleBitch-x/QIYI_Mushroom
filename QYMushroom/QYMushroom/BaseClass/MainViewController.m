@@ -9,7 +9,7 @@
 
 #import "MainViewController.h"
 #import "CustomTabBar.h"
-#import "SaunterViewController.h"
+#import "HomeViewController.h"
 
 @interface MainViewController ()
 
@@ -29,9 +29,9 @@
         tabBar.center = CGPointMake(MAINSCREEN_W/2,MAINSCREEN_H-tabBar.frame.size.height/2);
         [self.view addSubview:tabBar];
         
-        SaunterViewController *saunterVC = [[SaunterViewController alloc]init];
+        HomeViewController *homeVC = [[HomeViewController alloc]init];
         
-        self.viewControllers = @[saunterVC];
+        self.viewControllers = @[homeVC];
         
     }
     return self;

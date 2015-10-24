@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C051D9C1BDB94B500EC31F9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051D9B1BDB94B500EC31F9 /* HomeViewController.m */; };
+		8C051D9F1BDB94F400EC31F9 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051D9E1BDB94F400EC31F9 /* ShopViewController.m */; };
+		8C051DA21BDB951300EC31F9 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051DA11BDB951300EC31F9 /* CommunityViewController.m */; };
+		8C051DA51BDB95AE00EC31F9 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C051DA41BDB95AE00EC31F9 /* UserViewController.m */; };
 		8CB941641BDA23F000573944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941631BDA23F000573944 /* main.m */; };
 		8CB941671BDA23F000573944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941661BDA23F000573944 /* AppDelegate.m */; };
 		8CB9416D1BDA23F000573944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9416B1BDA23F000573944 /* Main.storyboard */; };
 		8CB9416F1BDA23F000573944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9416E1BDA23F000573944 /* Assets.xcassets */; };
 		8CB9417D1BDA23F000573944 /* QYMushroomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9417C1BDA23F000573944 /* QYMushroomTests.m */; };
 		8CB941881BDA23F000573944 /* QYMushroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941871BDA23F000573944 /* QYMushroomUITests.m */; };
-		8CB941AA1BDA316E00573944 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941A91BDA316E00573944 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8CB941AD1BDA320D00573944 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941AC1BDA320D00573944 /* CustomTabBar.m */; settings = {ASSET_TAGS = (); }; };
-		8CB941AF1BDA321E00573944 /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB941AE1BDA321E00573944 /* CustomTabBar.xib */; settings = {ASSET_TAGS = (); }; };
-		8CB941B31BDA33C700573944 /* FlexibleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941B21BDA33C700573944 /* FlexibleFrame.m */; settings = {ASSET_TAGS = (); }; };
-		8CB941B91BDA371000573944 /* SaunterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941B81BDA371000573944 /* SaunterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB941AA1BDA316E00573944 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941A91BDA316E00573944 /* MainViewController.m */; };
+		8CB941AD1BDA320D00573944 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941AC1BDA320D00573944 /* CustomTabBar.m */; };
+		8CB941AF1BDA321E00573944 /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB941AE1BDA321E00573944 /* CustomTabBar.xib */; };
+		8CB941B31BDA33C700573944 /* FlexibleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB941B21BDA33C700573944 /* FlexibleFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C051D9A1BDB94B500EC31F9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8C051D9B1BDB94B500EC31F9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8C051D9D1BDB94F400EC31F9 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		8C051D9E1BDB94F400EC31F9 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		8C051DA01BDB951300EC31F9 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
+		8C051DA11BDB951300EC31F9 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
+		8C051DA31BDB95AE00EC31F9 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		8C051DA41BDB95AE00EC31F9 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		8CB9415F1BDA23F000573944 /* QYMushroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYMushroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB941631BDA23F000573944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB941651BDA23F000573944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,8 +70,6 @@
 		8CB941B11BDA33C700573944 /* FlexibleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleFrame.h; sourceTree = "<group>"; };
 		8CB941B21BDA33C700573944 /* FlexibleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleFrame.m; sourceTree = "<group>"; };
 		8CB941B41BDA33D700573944 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		8CB941B71BDA371000573944 /* SaunterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaunterViewController.h; sourceTree = "<group>"; };
-		8CB941B81BDA371000573944 /* SaunterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaunterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C051D961BDB93F600EC31F9 /* 逛逛逛 */ = {
+			isa = PBXGroup;
+			children = (
+				8C051D9A1BDB94B500EC31F9 /* HomeViewController.h */,
+				8C051D9B1BDB94B500EC31F9 /* HomeViewController.m */,
+			);
+			path = "逛逛逛";
+			sourceTree = "<group>";
+		};
+		8C051D971BDB93F600EC31F9 /* 聊聊聊 */ = {
+			isa = PBXGroup;
+			children = (
+				8C051DA01BDB951300EC31F9 /* CommunityViewController.h */,
+				8C051DA11BDB951300EC31F9 /* CommunityViewController.m */,
+			);
+			path = "聊聊聊";
+			sourceTree = "<group>";
+		};
+		8C051D981BDB93F600EC31F9 /* 买买买 */ = {
+			isa = PBXGroup;
+			children = (
+				8C051D9D1BDB94F400EC31F9 /* ShopViewController.h */,
+				8C051D9E1BDB94F400EC31F9 /* ShopViewController.m */,
+			);
+			path = "买买买";
+			sourceTree = "<group>";
+		};
+		8C051D991BDB93F600EC31F9 /* 我我我 */ = {
+			isa = PBXGroup;
+			children = (
+				8C051DA31BDB95AE00EC31F9 /* UserViewController.h */,
+				8C051DA41BDB95AE00EC31F9 /* UserViewController.m */,
+			);
+			path = "我我我";
+			sourceTree = "<group>";
+		};
 		8CB941561BDA23F000573944 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +160,10 @@
 				8CB941661BDA23F000573944 /* AppDelegate.m */,
 				8CB941B01BDA33C700573944 /* FlexibleFrame */,
 				8CB941951BDA29AF00573944 /* BaseClass */,
-				8CB941B61BDA370700573944 /* Saunter */,
+				8C051D961BDB93F600EC31F9 /* 逛逛逛 */,
+				8C051D981BDB93F600EC31F9 /* 买买买 */,
+				8C051D971BDB93F600EC31F9 /* 聊聊聊 */,
+				8C051D991BDB93F600EC31F9 /* 我我我 */,
 				8CB9416B1BDA23F000573944 /* Main.storyboard */,
 				8CB9416E1BDA23F000573944 /* Assets.xcassets */,
 				8CB941731BDA23F000573944 /* Info.plist */,
@@ -170,15 +218,6 @@
 				8CB941B21BDA33C700573944 /* FlexibleFrame.m */,
 			);
 			path = FlexibleFrame;
-			sourceTree = "<group>";
-		};
-		8CB941B61BDA370700573944 /* Saunter */ = {
-			isa = PBXGroup;
-			children = (
-				8CB941B71BDA371000573944 /* SaunterViewController.h */,
-				8CB941B81BDA371000573944 /* SaunterViewController.m */,
-			);
-			path = Saunter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,12 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C051DA51BDB95AE00EC31F9 /* UserViewController.m in Sources */,
+				8C051DA21BDB951300EC31F9 /* CommunityViewController.m in Sources */,
 				8CB941AD1BDA320D00573944 /* CustomTabBar.m in Sources */,
 				8CB941B31BDA33C700573944 /* FlexibleFrame.m in Sources */,
 				8CB941671BDA23F000573944 /* AppDelegate.m in Sources */,
 				8CB941AA1BDA316E00573944 /* MainViewController.m in Sources */,
 				8CB941641BDA23F000573944 /* main.m in Sources */,
-				8CB941B91BDA371000573944 /* SaunterViewController.m in Sources */,
+				8C051D9C1BDB94B500EC31F9 /* HomeViewController.m in Sources */,
+				8C051D9F1BDB94F400EC31F9 /* ShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

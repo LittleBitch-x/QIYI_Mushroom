@@ -1,18 +1,18 @@
 //
-//  SaunterViewController.m
+//  HomeViewController.m
 //  QYMushroom
 //
-//  Created by 李祖建 on 15/10/23.
+//  Created by 李祖建 on 15/10/24.
 //  Copyright © 2015年 RecordTeam. All rights reserved.
 //
 
-#import "SaunterViewController.h"
+#import "HomeViewController.h"
 
-@interface SaunterViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation SaunterViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
