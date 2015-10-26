@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8C34A1B-4135-421B-BAEF-B6F8F7BFE438</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QYMushroom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3461810C463C7D8FA5F4C99CE76329C6D38C23D</key>
+		<string>https://github.com/LittleBitch-x/QIYI_Mushroom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QYMushroom/QYMushroom.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3461810C463C7D8FA5F4C99CE76329C6D38C23D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LittleBitch-x/QIYI_Mushroom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3461810C463C7D8FA5F4C99CE76329C6D38C23D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3461810C463C7D8FA5F4C99CE76329C6D38C23D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QIYI_Mushroom</string>
+		</dict>
+	</array>
+</dict>
+</plist>
